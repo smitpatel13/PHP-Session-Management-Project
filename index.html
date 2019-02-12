@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<!--
+LOG IN PAGE
+Author: Smitkumar Patel
+Student Number: 000737859
+-->
+<html>
+    <head>
+        <title>Login</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style type="text/css">
+            body{
+                font-family: sans-serif;
+                text-align: center;
+                background-color: lightslategrey;
+            }
+            form{
+                margin: 50px 0;
+                display: inline-block;
+                border: medium solid lightpink;
+                background-color: lightsalmon;
+                color: black;
+            }
+            fieldset{
+                margin: 22px 22px;
+                border: none;
+            }
+            input{
+                display: block;
+            }
+            label{
+                text-align: left;
+                float: left;
+                clear: left;
+                width: 150px;
+            }
+            input[type="submit"]{
+                margin: 25px 0 0 0
+            }
+        </style>
+    </head>
+    <body>
+        <h1> SIGN IN FOR INFORMATION</h1>
+        <form action="home.php" method="POST">
+            <fieldset>
+                <label>Username:</label>
+                <input type="text" name="username" required="required">
+                <label>Password:</label>
+                <input type="password" name="password" required="required">   
+                <input type="submit" value="login">
+            </fieldset>
+        </form>
+    </body>
+</html>
